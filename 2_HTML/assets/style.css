@@ -1,0 +1,30 @@
+body {
+   background-color: rgb(219, 219, 226);
+}
+.titulo{
+   background-color: rgba(60, 255, 0, 0.63);
+   padding: 80px;
+   border-radius: 10px;
+   box-shadow: 10px 6px rgba(33, 34, 34, 0.267);
+   font-size: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.lente-convexa {
+  background-color: blue;
+  width: 1000px;
+}
+.titulos{
+   background-color: rgba(245, 53, 197, 0.63);
+   padding: 80px;
+   border-radius: 10px;
+   box-shadow: 10px 6px rgba(33, 34, 34, 0.267);
+   font-size: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+h3{
+   color: brown;
+}

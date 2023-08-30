@@ -1,0 +1,185 @@
+/*4 external Css*/
+body {
+    padding-bottom: 500px;
+    background-color: rgb(255, 249, 249);
+}
+
+h3 {
+    color: green;
+    font-size: 40px;
+}
+
+/*p{
+    color: blueviolet;
+}
+/*Algum comentario*/
+/*mais um comentario*/
+
+/* classes */
+
+.paragraph {
+    background-color: aquamarine;
+    color: black;
+    padding: 5px;
+}
+
+#exclusive {
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+.color-name {
+    color: crimson;
+}
+
+.hex {
+    color: #677e3b;
+}
+
+.hex2 {
+    color: #a1e273;
+}
+
+.simple-hex {
+    color: #888;
+}
+
+.simple-hex2 {
+    color: #a5f;
+}
+
+/*RGB*/
+.rgb {
+    color: rgb(255, 0, 0)
+}
+
+.rgb-mixed {
+    color: rgb(199, 21, 47);
+}
+
+/*RGBA*/
+.rgba {
+    color: rgba(100, 199, 45, 0.2);
+}
+
+/*HSL*/
+.hsl {
+    color: rgba(201, 85%, 48%);
+}
+
+/*Backgroud*/
+.bg {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+/*Backgroud opacity*/
+.bg-opacity {
+    background-color: green;
+    opacity: 0, 2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: rgb(0, 0, 0);
+    opacity: 0, 8;
+}
+
+/*rgba com opacidade*/
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: black;
+}
+
+/*BG image*/
+.bg-image {
+    background-image: url(img/photo-1538370965046-79c0d6907d47.jpg);
+    color: #fff;
+    padding: 10px 900px;
+    background-size: cover;
+}
+
+/*centralizando bg image*/
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(img/Imagem\ do\ mar\ calma\ e\ belo\ da\ Praia\ da\ Engenhoca-Itacaré-Bahia-BA.jpg);
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/*largura e altura*/
+.height-width {
+    background-color: #a5f;
+    height: 300px;
+    width: 400px;
+}
+
+.height-width-2 {
+    background-color: rgb(243, 64, 94);
+    height: 500px;
+}
+
+/*padding*/
+.not-padding {
+    background-color: tomato;
+}
+
+.yes-padding {
+    padding: 20px;
+    background-color: violet;
+}
+
+/*padding individual*/
+.padding-individual {
+    background-color: rgb(223, 142, 36);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/*shorthand padding*/
+.shorthand {
+    background-color: #555;
+    color: aliceblue;
+    padding: 20px 30px 40px 50px;
+}
+
+.shorthand-2 {
+    background-color: #999;
+    padding: 40px 60px;
+}
+
+/*padding com width*/
+.without-border-box{
+    background-color: #555;
+    color: aliceblue;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #888;
+    color: alicebluez   ;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}

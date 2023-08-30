@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    ]
+    <!--Anatomia das tags-->
+    <!--o elemento principal do HTML é a tag;
+    Toda tag tem um nome e um propósito, a tag p serve para paragrafos;
+Nós precisamos envolver uma tag com sinal de <menor e >maior: assim <p>
+    e no meio colocar um conteúdo: <p>Texto</p>
+isso vai criar um elemento de parágrafo, quase todas as tags funcionam assim;-->
+
+    <!--1 - titulos -->
+    <!--Os titúlos sao conhecidos como headings;
+    Utilizamos pricipalmente para separar seções;
+o nome da tag h*, onde* pode ser um valor de 1 a 6;
+o maior titulo é o h1, e também é o mais importante, colocamos apenas um por pagina;
+A importâcia deve estar conectada com o propósito da nossa página, este assunto faz parte do HTML semântico, um topico mais avançado;-->>
+    <h1 class="titulo">Este é um título importante</h1>
+    <h3>Um novo título</h3>
+
+    <!-- 2 parágrafos -->
+    <p>Descrisção dos nossos serviços</p>
+    <p>Mais um paragráfo</p>
+    <!-- 3 tags sem conteúdo -->
+    <p>Um parágrafo</p>
+    <br />
+    <p>Segundo parágrafo</p>
+    <hr />
+    <p>Terceiro parágrafo</p>
+
+    <!-- 4 comentários -->
+    <!--Este é um comentário-->
+    <h2 class="titulos">Mais um parágrafo</h2>
+    <!-- Outro comentário -->
+
+    <!-- 6 - atributos -->
+    <a href="https://www.google.com.br/">google</a>
+    <br />
+    <a href="https://www.google.com.br/" target="_blank">Google em outra aba</a>
+    <br />
+    <!-- 7 - img-->
+    <div class="lente-convexa">
+      <img src="assets/imagem-em-lente-convexa.webp" alt="" />
+    </div>
+
+    <!-- 8 - atributo alt-->
+    <img src="assets/iStock-536613027.jpg" alt="natureza final de tarde" />
+    <br />
+    <!-- 9 -  listas nao ordenadas-->
+    <!--listas sao importantes para muitos fins nos sites;
+     podemos criar ate um menu a partir de uma lista;
+     as não ordenadas são criadas pela tag ul;
+     casa item na lista é representado pela tag li; -->
+    <ul>
+      <li>carros</li>
+      <li>navios</li>
+      <li>motos</li>
+      <li>aeronaves</li>
+    </ul>
+    <br />
+    <!-- 10 - listas ordenadas-->
+    <!-- Listas ordenadas são interessantes para quando há um
+     procendimento ou passas a serem seguidos;
+     Exemplo: receita de algum alimento;
+     Agora utilizamos a tag ol;
+     E os itens continuam sendo a tag li;-->
+
+    <ol>
+      <li>Lavar o carro</li>
+      <li>Ir ao mercado</li>
+      <li>Estudar programação</li>
+      <li>Jantar com amigos</li>
+    </ol>
+    <br />
+    <!-- 11 - Tabelas -->
+    <!--Nós usamos tabelas para exibir dados que podem 
+     ser categorizados em colunas;
+     Tabelas são estruturadas complexas no HTML, e não tão utilizadas;
+     Precisamos da tag table, isso cria a tabela;
+     E também um cabeçaho e um corpo;
+     Cada linha é crianda em uma tag tr, e os dados ficam em td;
+     No cabeçalho utilizamos a tag th;-->
+    <table>
+      <tr>
+        <th>ID:</th>
+        <th>NOME:</th>
+        <th>PROFISSÃO:</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>marcus</td>
+        <td>micropigmentador</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>markelys</td>
+        <td>designer</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>sayka</td>
+        <td>cabelereira</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>Lia</td>
+        <td>depiladora</td>
+      </tr>
+      <br />
+    </table>
+
+    <!-- 12 - div-->
+    <!-- a tag div é utilizada para criar divisões/seções no nosso site;
+podemos criar elementos menores também , como cards;
+O principal propósito é: encapsular elementos que estão conectados entre si;-->
+    <div>
+      <h2>Título da seção</h2>
+      <p>Descrição da seção, um texto relacionado a este assunto</p>
+      <a href="#">Saber mais</a>
+    </div>
+
+    <div>
+      <h2>Título da seção 2</h2>
+      <p>Descrição da seção 2, um texto relacionado a este assunto</p>
+      <a href="#">Saber mais</a>
+    </div>
+  </body>
+</html>
