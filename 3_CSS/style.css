@@ -183,3 +183,21 @@ h2 {
     padding: 50px;
     box-sizing: border-box;
 }
+/*borda*/
+.border{
+    border: 5px solid red;
+    padding: 20px;
+}
+.border-2{
+    border:  5px dotted blue;
+}
+
+/*bordas individuais*/
+.border-left{
+    border-left: 10px solid rgb(51, 4, 99);
+    background-color: #e1fa00c0;
+}
+.border-bottom{
+    border-bottom: 10px double rgb(51, 4, 99);
+    background-color: #e1fa00c0;
+}
