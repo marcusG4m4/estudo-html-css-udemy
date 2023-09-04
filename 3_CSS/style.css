@@ -29,9 +29,9 @@ h3 {
     padding: 10px;
 }
 
-h2 {
+/*h2 {
     border-bottom: 2px solid red;
-}
+}*/
 
 .titulo {
     border-bottom: 3px solid blue;
@@ -281,3 +281,45 @@ h2 {
     padding: 20px;
     text-align: center;
 }
+
+/*text alignment*/
+.text-aligned {
+    text-align: right;
+}
+
+/*treino*/
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.container p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+.blue {
+    border-left: 6px solid #4895ff;
+  }
+   
+  .green {
+    border-left: 6px solid #3bb54a;
+  }
+   
+  .red {
+    border-left: 6px solid #b3404a;
+  }
