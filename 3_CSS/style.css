@@ -1,4 +1,5 @@
 /*4 external Css*/
+
 body {
     padding-bottom: 500px;
     background-color: rgb(255, 249, 249);
@@ -323,3 +324,37 @@ h3 {
   .red {
     border-left: 6px solid #b3404a;
   }
+  /*text decoration*/
+  .underline{
+    text-decoration: underline;
+  }
+
+  .line-trough {
+  text-decoration: line-through;
+  }
+  .remove-underline{
+    text-decoration: none;
+  }
+
+  /*text Trasnform*/
+  .upper{
+    text-transform: uppercase;
+  }
+
+  .lower{
+    text-transform: lowercase;
+  }
+  
+
+/*letter spacing*/
+.spacing{
+    letter-spacing: 5px;
+}
+
+/*fontes*/
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
