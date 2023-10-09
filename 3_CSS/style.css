@@ -450,3 +450,46 @@ h3 {
  top: 10px;
  right: 10px;
 }
+
+/*relative com absolute*/
+.container{
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  position: relative;
+  margin-top: 120px;
+}
+.absolute1,
+.absolute2{
+  width: 50px;
+  height: 50px;
+  background-color: #b3404a;
+  position: absolute;
+
+}
+.absolute1{
+  top: 10px;
+  left: 10px;
+}
+.absolute2{
+  right: 10px;
+  bottom: 10px;
+}
+.fixed{
+  width: 60px;
+  height: 60px;
+  background-color: #a5f;
+  border: 1px #d6e044;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.sticky{
+  width: 60px;
+  height: 60px;
+  background-color: rgb(83, 211, 121);
+  border: 1px rgb(161, 17, 180);
+  position: sticky;
+  top: 20px;
+  left: 20px;
+}
